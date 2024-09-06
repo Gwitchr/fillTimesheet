@@ -45,7 +45,7 @@ const Config = {
     `data/${targetDatesYear}_${
       targetDatesMonth + 1
     }_${Config.name()}_timesheet.csv`,
-  author: process.env.GIT_AUTHORNAMES.split(",") ?? [
+  author: process.env?.GIT_AUTHORNAMES?.split(",") ?? [
     "Luis Casillas",
     "gwitchr",
     "Gwitchr"
