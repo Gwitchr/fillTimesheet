@@ -1,0 +1,21 @@
+{
+  "name": "filltimesheetab",
+  "version": "1.0.0",
+  "description": "a simple script to fill out a timesheet ",
+  "main": "main.js",
+  "scripts": {
+    "start": "node main.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "timesheet"
+  ],
+  "author": "@gwitchr",
+  "license": "ISC",
+  "dependencies": {
+    "date-fns": "^3.6.0",
+    "dotenv": "^16.4.5",
+    "node-fetch": "^3.3.2",
+    "simple-git": "^3.26.0"
+  }
+}
